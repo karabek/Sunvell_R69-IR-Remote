@@ -38,7 +38,7 @@ Hit any key on the remote to test.
 	323 : "KEY_SETUP"
 	271 : "KEY_APPSELECT"
 	272 : "KEY_VOLUMEDOWN"
-	280 : "KEY_VOLUMEUP"
+	281 : "KEY_VOLUMEUP"
 	273 : "KEY_HOME"
 	280 : "KEY_BACK"
 	332 : "KEY_MENU"
