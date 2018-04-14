@@ -37,7 +37,7 @@ cmds = {320 : "KEY_POWER",
 }
 
 
-infile_path = "/dev/input/event1"
+infile_path = "/dev/input/event" + (sys.argv[1] if len(sys.argv) > 1 else "0")
 # long int, long int, unsigned short, unsigned short, unsigned int
 FORMAT = 'llHHI'
 EVENT_SIZE = struct.calcsize(FORMAT)
