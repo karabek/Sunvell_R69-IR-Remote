@@ -19,10 +19,16 @@ $ cd
 $ git clone https://github.com/karabek/Sunvell_R69-IR-Remote
 ```
 
-Test:
+Find device:
+```
+$ ls -l /dev/input/by-path | grep ir-event
+```
+the last digit (e.g. "0") should be used as parameter for the "sunvell_r69-cir.py"-script
+
+Test (for ir-event at "../event0":
 ```
 $ cd Sunvell_R69-IR-Remote
-$ sudo sunvell_r69-cir.py
+$ sudo sunvell_r69-cir.py 0
 ```
 
 Hit any key on the remote to test.
