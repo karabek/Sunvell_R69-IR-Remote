@@ -25,10 +25,10 @@ $ ls -l /dev/input/by-path | grep ir-event
 ```
 the last digit (e.g. "0") should be used as parameter for the "sunvell_r69-cir.py"-script
 
-Test (for ir-event at "../event0":
+Test:
 ```
 $ cd Sunvell_R69-IR-Remote
-$ sudo sunvell_r69-cir.py 0
+$ sudo sunvell_r69-cir.py
 ```
 
 Hit any key on the remote to test.
