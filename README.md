@@ -71,7 +71,7 @@ Hit any key on the remote to test.
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Richard Hull
+Copyright (c) 2018 R. Karabek
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
